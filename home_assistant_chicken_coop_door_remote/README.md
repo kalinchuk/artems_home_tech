@@ -172,7 +172,7 @@ Notice the `position_template` key. This is optional and is used for the state o
 
 I soldered the ESP32 and the 433MHz receiver/transmitter to a protoboard and installed it in a basic enclosure. The antenna is for WiFi only. The power is supplied by a USB cable.
 
-IMAGE
+<img width="700" alt="Home Assistant Chicken Coop Door Enclosure" src="https://github.com/user-attachments/assets/3d2bf9c1-695a-4387-901f-3049133b1110"/>
 
 In Home Assistant, I added the new cover to the list of doors.
 
