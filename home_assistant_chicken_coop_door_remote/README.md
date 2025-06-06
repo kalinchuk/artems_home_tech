@@ -10,7 +10,7 @@ Home Assistant is a free and open-source software used for home automation. If y
 
 An ESP32 is flashed with software capable of sending data using a 433MHz radio (see below). The software can also receive data using the receiver (see below). Home Assistant has a module called [ESPHome](https://esphome.io) which does all the configuration for the ESP32 devices and integration into Home Assistant. Once configured, the device will show up in Home Assistant.
 
-<img width="552" alt="Home Assistant Toggle" src="https://github.com/user-attachments/assets/da547080-e4f9-49a4-a99a-d1ee91629e57" />
+<img width="506" alt="Home Assistant Chicken Coop Door Switch" src="https://github.com/user-attachments/assets/521b9254-bda3-48d7-a5cc-a3092a16bdd8" />
 
 In essence, this device is a 433MHz transceiver for Home Assistant and can be used to control any number of 433MHz devices or receive data on that frequency for Home Assistant to consume and act on.
 
