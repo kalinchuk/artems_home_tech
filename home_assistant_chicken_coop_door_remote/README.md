@@ -2,6 +2,8 @@
 
 A lot of motorized chicken coop doors on the market come with a 433MHz remote control. The device outlined below can be used to control the chicken coop door remotely via Home Assistant and can also automate the door opening and closing. The full assembly and instructions are available on [YouTube](...).
 
+<img width="700" alt="Home Assistant Chicken Coop Door Remote" src="https://github.com/user-attachments/assets/12ebbce2-7308-4dcf-ae36-486efc21d041"/>
+
 ## What is Home Assistant
 
 Home Assistant is a free and open-source software used for home automation. If you're not familiar with it, check out [https://www.home-assistant.io/](https://www.home-assistant.io/)
