@@ -171,3 +171,7 @@ Notice the `position_template` key. This is optional and is used for the state o
 I soldered the ESP32 and the 433MHz receiver/transmitter to a protoboard and installed it in a basic enclosure. The antenna is for WiFi only. The power is supplied by a USB cable.
 
 IMAGE
+
+In Home Assistant, I added the new cover to the list of doors.
+
+<img width="471" alt="Home Assistant Doors" src="https://github.com/user-attachments/assets/01d8b2c1-bbd8-475a-a525-97aedf672730" />
