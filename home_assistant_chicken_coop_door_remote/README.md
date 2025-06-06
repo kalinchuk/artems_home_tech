@@ -25,7 +25,7 @@ The Amazon link to the 433MHz transmitter also includes a receiver which you can
 
 ## Schematic
 
-IMAGE
+<img width="915" alt="Home Assistant Chicken Coop Door Remote Schematic" src="https://github.com/user-attachments/assets/e46f9444-1074-4dc2-8d71-424ee788e9c1" />
 
 ## Configuration
 
