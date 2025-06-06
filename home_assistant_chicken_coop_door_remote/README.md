@@ -155,20 +155,15 @@ cover:
         unique_id: chicken_coop_door_cover
         device_class: door
         friendly_name: Chicken Coop Door
-        position_template: >
-          {% if is_state('binary_sensor.chicken_coop_opening_2', 'on') %}
-            100
-          {% else %}
-            0
-          {% endif %}
+        value_template: "{{ is_state('binary_sensor.chicken_coop_opening_2', 'on') }}"
         open_cover:
           - service: cover.open_cover
             target:
-              entity_id: cover.433mhz_transceiver_chicken_coop_door_cover
+              entity_id: cover.433mhz_transceiver_chicken_coop_door
         close_cover:
           - service: cover.close_cover
             target:
-              entity_id: cover.433mhz_transceiver_chicken_coop_door_cover
+              entity_id: cover.433mhz_transceiver_chicken_coop_door
 ```
 
 Notice the `position_template` key. This is optional and is used for the state of the door. I'm using a simple ZigBee door sensor that I added to Home Assistant.
