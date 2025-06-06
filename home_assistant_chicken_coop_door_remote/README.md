@@ -10,7 +10,7 @@ Home Assistant is a free and open-source software used for home automation. If y
 
 An ESP32 is flashed with software capable of sending data using a 433MHz radio (see below). The software can also receive data using the receiver (see below). Home Assistant has a module called [ESPHome](https://esphome.io) which does all the configuration for the ESP32 devices and integration into Home Assistant. Once configured, the device will show up in Home Assistant.
 
-IMAGE
+<img width="552" alt="Home Assistant Toggle" src="https://github.com/user-attachments/assets/da547080-e4f9-49a4-a99a-d1ee91629e57" />
 
 In essence, this device is a 433MHz transceiver for Home Assistant and can be used to control any number of 433MHz devices or receive data on that frequency for Home Assistant to consume and act on.
 
@@ -112,7 +112,7 @@ cover:
             wait_time: 0s
 ```
 
-Notice that each node is sent multiple times (10 times in this case). This is to ensure that the chicken coop door receiver actually receives the signal since it's not very reliable.
+Notice that each code is sent multiple times (10 times in this case). This is to ensure that the chicken coop door receiver actually receives the signal since it's not very reliable.
 
 *Note*: The `code` that is sent may be different in your case. To find out what code to use, you may need to listen to the signals while pressing the buttons on your 433MHz remote. Configure the device to listen with this configuration which can be added in the same file as the configuration above:
 
