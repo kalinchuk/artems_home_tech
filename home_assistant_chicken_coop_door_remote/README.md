@@ -155,7 +155,12 @@ cover:
         unique_id: chicken_coop_door_cover
         device_class: door
         friendly_name: Chicken Coop Door
-        position_template: "{{ is_state('binary_sensor.chicken_coop_opening_2', 'on') }}"
+        position_template: >
+          {% if is_state('binary_sensor.chicken_coop_opening_2', 'on') %}
+            100
+          {% else %}
+            0
+          {% endif %}
         open_cover:
           - service: cover.open_cover
             target:
