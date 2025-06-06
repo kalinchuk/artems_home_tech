@@ -175,3 +175,5 @@ IMAGE
 In Home Assistant, I added the new cover to the list of doors.
 
 <img width="471" alt="Home Assistant Doors" src="https://github.com/user-attachments/assets/01d8b2c1-bbd8-475a-a525-97aedf672730" />
+
+I also configured Home Assistant to open the door in the morning and close it in the evening using the "Automations" configuration.
