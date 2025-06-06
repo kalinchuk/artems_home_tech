@@ -133,6 +133,8 @@ remote_receiver:
 
 Adjust the tolerance and filter as needed to filter out noise.
 
+Once added and installed on the device, the device logs will print out any messages received from the 433MHz receiver.
+
 ### Add Device to Home Assistant
 
 Once the ESPHome device has been added and comes online, go to "Devices & Services" under "Settings" in Home Assistant and add this new device to Home Assistant. It needs to be added to Home Assistant directly because we defined a cover in the YAML configuration that needs to be available in Home Assistant.
