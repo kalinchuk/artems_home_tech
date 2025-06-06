@@ -8,7 +8,7 @@ Home Assistant is a free and open-source software used for home automation. If y
 
 ## How it works
 
-An ESP32 is flashed with software capable of sending data using a 433MHz radio (see below). The software can also receive data using the receiver (see below). Home Assistant has a module called [https://esphome.io/](ESPHome) which does all the configuration for the ESP32 devices and integration into Home Assistant. Once configured, the device will show up in Home Assistant.
+An ESP32 is flashed with software capable of sending data using a 433MHz radio (see below). The software can also receive data using the receiver (see below). Home Assistant has a module called [ESPHome](https://esphome.io) which does all the configuration for the ESP32 devices and integration into Home Assistant. Once configured, the device will show up in Home Assistant.
 
 IMAGE
 
@@ -16,8 +16,10 @@ In essence, this device is a 433MHz transceiver for Home Assistant and can be us
 
 ## Parts
 
-| ESP32 | [https://www.amazon.com/dp/B0D9LJN2VW](Amazon) |
-| 433MHz transmitter | [https://www.amazon.com/dp/B01DKC2EY4](Amazon) |
+| Part | Source |
+|------|--------|
+| ESP32 | [Amazon]([Amazon](https://www.amazon.com/dp/B0D9LJN2VW)) |
+| 433MHz transmitter | [Amazon]([Amazon](https://www.amazon.com/dp/B01DKC2EY4)) |
 
 The Amazon link to the 433MHz transmitter also includes a receiver which you can use as well.
 
