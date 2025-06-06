@@ -18,8 +18,8 @@ In essence, this device is a 433MHz transceiver for Home Assistant and can be us
 
 | Part | Source |
 |------|--------|
-| ESP32 | [Amazon]([Amazon](https://www.amazon.com/dp/B0D9LJN2VW)) |
-| 433MHz transmitter | [Amazon]([Amazon](https://www.amazon.com/dp/B01DKC2EY4)) |
+| ESP32 | [Amazon](https://www.amazon.com/dp/B0D9LJN2VW)) |
+| 433MHz transmitter | [Amazon](https://www.amazon.com/dp/B01DKC2EY4)) |
 
 The Amazon link to the 433MHz transmitter also includes a receiver which you can use as well.
 
